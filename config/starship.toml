@@ -1,0 +1,10 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = true
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+
+[git_branch]
+format = " [$symbol$branch]($style) "
+symbol = "🔧🤿 "
