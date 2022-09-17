@@ -1,0 +1,12 @@
+[user]
+	name = togami2864
+	email = tuabobo123@gmail.com
+
+[alias]
+	b = branch
+	bd = branch -d
+	bn = branch -b
+	ch = checkout
+	co = commit -m
+	fixit = commit --amend --no-edit
+	st = status
