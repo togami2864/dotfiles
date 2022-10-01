@@ -5,8 +5,8 @@
 [alias]
 	b = branch
 	bd = branch -d
-	bn = branch -b
 	ch = checkout
+	chb = checkout -b
 	co = commit -m
 	fixit = commit --amend --no-edit
 	st = status
