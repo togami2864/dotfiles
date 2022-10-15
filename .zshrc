@@ -8,11 +8,16 @@ export PATH="$PNPM_HOME:$PATH"
 
 # global
 export ZSH="$HOME/dotfiles/.zshrc"
+export PGTESTURL="postgres://postgres:password@localhost:5432/sandbox"
 
 # alias
 alias dotfiles="code ~/dotfiles/"
 alias zshrc="code ~/dotfiles/"
 alias desk="cd ~/Desktop"
+
+## docker-compose
+alias do="docker-compose"
+alias doup="docker-compose up -d"
 
 # init
 eval "$(starship init zsh)"
