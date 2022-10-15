@@ -5,6 +5,8 @@ export PNPM_HOME="/Users/yt/Library/pnpm"
 export PATH="$HOME/.nodenv/bin:$PATH"
 export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$PNPM_HOME:$PATH"
+export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # global
 export ZSH="$HOME/dotfiles/.zshrc"
@@ -14,6 +16,7 @@ export PGTESTURL="postgres://postgres:password@localhost:5432/sandbox"
 alias dotfiles="code ~/dotfiles/"
 alias zshrc="code ~/dotfiles/"
 alias desk="cd ~/Desktop"
+alias soz="source ${ZSH}"
 
 ## docker-compose
 alias do="docker-compose"
