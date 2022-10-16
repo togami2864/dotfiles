@@ -10,7 +10,8 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # global
 export ZSH="$HOME/dotfiles/.zshrc"
-export PGTESTURL="postgres://postgres:password@localhost:5432/sandbox"
+export PGTESTURL="postgresql://postgres:password@localhost:5432/sandbox"
+export MYSQL_URL="mysql://root:password@localhost:3333/test"
 
 # alias
 alias dotfiles="code ~/dotfiles/"
