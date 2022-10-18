@@ -4,7 +4,7 @@
 
 [alias]
 	b = branch
-	bd = branch -d
+	bd = branch -D
 	ch = checkout
 	chb = checkout -b
 	co = commit -m
