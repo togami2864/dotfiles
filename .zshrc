@@ -30,3 +30,4 @@ eval "$(pyenv init -)"
 
 # command alias
 alias ls='exa'
+alias cat='bat'
