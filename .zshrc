@@ -22,6 +22,7 @@ alias soz="source ${ZSH}"
 ## docker-compose
 alias do="docker-compose"
 alias doup="docker-compose up -d"
+alias dodel="docker volume prune"
 
 # init
 eval "$(starship init zsh)"
