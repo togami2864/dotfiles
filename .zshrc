@@ -32,3 +32,5 @@ eval "$(pyenv init -)"
 # command alias
 alias ls='exa'
 alias cat='bat'
+export PATH=/Users/yt/.pyenv/shims:/Users/yt/.nodenv/shims:/usr/local/opt/mysql-client/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/yt/Library/pnpm:/Users/yt/.pyenv/bin:/Users/yt/.nodenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/yt/.cargo/bin:~/Desktop/nand2tetris/tools
+export PATH=/Users/yt/.pyenv/shims:/Users/yt/.nodenv/shims:/usr/local/opt/mysql-client/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/yt/Library/pnpm:/Users/yt/.pyenv/bin:/Users/yt/.nodenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/yt/.cargo/bin:~/Desktop/nand2tetris/tools
